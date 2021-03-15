@@ -21,7 +21,7 @@ public class show_text : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.name == "main_char")
+        if (other.gameObject.name == "main_char" )
         {
             text.text = info;
             textbox.SetActive(true);

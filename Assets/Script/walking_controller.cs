@@ -9,14 +9,18 @@ public class walking_controller : MonoBehaviour
     Animator animator;
     //bool if_collider;
     public Text text;
+    public static int energy_level;
     public GameObject textbox;
-    public int collisions = 0;
+    public static int collisions = 0;
+    public static int walk;
     private SpriteRenderer mySpriteRenderer;
-   
+
 
     // Start is called before the first frame update
     void Start()
     {
+        walk = 1;
+        energy_level = 0;
         animator = gameObject.GetComponent<Animator>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -31,15 +35,18 @@ public class walking_controller : MonoBehaviour
             // 
         }
         else {
-            
+
         }
-       
+
 
         animator.SetFloat("vspeed", 0.0f);
         animator.SetBool("stop", true);
         animator.SetFloat("hspeed", 0.0f);
-        float translation_y = Input.GetAxis("Vertical") * speed;
-        float translation_x = Input.GetAxis("Horizontal") * speed;
+       
+            float translation_y = Input.GetAxis("Vertical") * speed * Time.deltaTime*walk;
+            float translation_x = Input.GetAxis("Horizontal") * speed * Time.deltaTime*walk;
+        
+       
         if (translation_y > 0)
         {
             animator.SetBool("stop", false);
