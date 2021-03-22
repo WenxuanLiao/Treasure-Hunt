@@ -7,18 +7,27 @@ public class chasing : MonoBehaviour
 {
     public int speed;
     public float ray_distance;
+    public static Animator animator;
     public GameObject player;
     private SpriteRenderer mySpriteRenderer;
-    public int move_vertical;
+    public static int move_vertical;
+    public static int move_horizontal;
     public GameObject the_end;
     public LayerMask barrier;
+    public static int mode;
+    public GameObject cat;
+
 
 
     private void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-       // Vector2 sightDist = (1,0);
-    }
+        animator = gameObject.GetComponent<Animator>();
+       move_vertical=1;
+     move_horizontal=1;
+        mode = 0;
+    // Vector2 sightDist = (1,0);
+}
     void Update()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position,Vector2.left,ray_distance,barrier);
@@ -26,22 +35,31 @@ public class chasing : MonoBehaviour
         if (hit.collider != null)
         {
             
-                move_vertical = 0;
-                print("hit barrier");
- 
-            
+            move_vertical = 0;
+            move_horizontal = 2;
+            //   print("hit barrier");
+
+
 
         }
         else {
             move_vertical = 1;
-            print("hit nothing");
+            move_horizontal = 1;
         }
+        if (mode == 0 ||mode==2)
+        {
 
-        Vector3 localPosition = player.transform.position - transform.position;
-        localPosition = localPosition.normalized; // The normalized direction in LOCAL space
-        transform.Translate(localPosition.x * Time.deltaTime * speed*move_vertical, localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
+            Vector3 localPosition = player.transform.position - transform.position;
+            localPosition = localPosition.normalized; // The normalized direction in LOCAL space
+            transform.Translate(localPosition.x * Time.deltaTime * speed * move_vertical, move_horizontal * localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
 
-
+        }
+        if (mode == 1)
+        {
+            Vector3 localPosition = cat.transform.position - transform.position;
+            localPosition = localPosition.normalized; // The normalized direction in LOCAL space
+            transform.Translate(localPosition.x * Time.deltaTime * speed , localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
+        }
         //   Vector3 fwd = transform.TransformDirection(-1,0,0);
         if (player.transform.position.x < transform.position.x)
         {
@@ -56,7 +74,11 @@ public class chasing : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.name == "main_char")
+        if (other.gameObject.name == "cat")
+        {
+            mode = 2;
+        }
+            if (other.gameObject.name == "main_char")
         {
 
 

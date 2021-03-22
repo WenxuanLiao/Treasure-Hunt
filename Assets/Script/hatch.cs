@@ -32,7 +32,7 @@ public class hatch : MonoBehaviour
     {
         if (other.gameObject.name == "main_char")
         {
-            if (have_key == false)
+            if (hatch_console.hatch_open == false)
             {
                 text.text = "Hatch, maybe a way for me to escape from here.";
                 textbox.SetActive(true);

@@ -8,6 +8,10 @@ public class password_founder : MonoBehaviour
     public Text text;
     public GameObject textbox;
     public string info;
+    public GameObject profile;
+    //public Image image;
+    public Sprite rabbit;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -19,18 +23,32 @@ public class password_founder : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter2D(Collision2D other)
+  
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.name == "main_char")
         {
             text.text = info;
             textbox.SetActive(true);
+            profile.SetActive(true);
+            profile.GetComponent<Image>().sprite = rabbit;
+            walking_controller.walk = 0;
+            StartCoroutine(ExampleCoroutine());
             pass_word_machine.if_password = true;
-
+            GetComponent<BoxCollider2D>().isTrigger = false;
         }
-        else
-        {
+    }
+    IEnumerator ExampleCoroutine()
+    {
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(3.0f);
+        text.text = "";
 
-        }
+
+        walking_controller.walk = 1;
+        textbox.SetActive(false);
+        profile.SetActive(false);
+        Destroy(GetComponent<password_founder>());
+
     }
 }
