@@ -16,6 +16,7 @@ public class chasing : MonoBehaviour
     public LayerMask barrier;
     public static int mode;
     public GameObject cat;
+    private Animation anim;
 
 
 
@@ -23,28 +24,39 @@ public class chasing : MonoBehaviour
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
         animator = gameObject.GetComponent<Animator>();
-       move_vertical=1;
+        anim= gameObject.GetComponent<Animation>();
+        move_vertical =1;
      move_horizontal=1;
-        mode = 0;
+       // mode = 0;
     // Vector2 sightDist = (1,0);
 }
     void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position,Vector2.left,ray_distance,barrier);
-
-        if (hit.collider != null)
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, ray_distance, barrier);
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("blink"))
         {
-            
-            move_vertical = 0;
-            move_horizontal = 2;
-            //   print("hit barrier");
+          //  Debug.Log("not blink");
+        
+            if (hit.collider != null)
+            {
+
+                move_vertical = 0;
+                move_horizontal = 2;
+                //   print("hit barrier");
 
 
 
+            }
+            else
+            {
+                move_vertical = 1;
+                move_horizontal = 1;
+            }
         }
         else {
-            move_vertical = 1;
-            move_horizontal = 1;
+           
+            move_vertical = 0;
+            move_horizontal = 0;
         }
         if (mode == 0 ||mode==2)
         {
@@ -58,7 +70,7 @@ public class chasing : MonoBehaviour
         {
             Vector3 localPosition = cat.transform.position - transform.position;
             localPosition = localPosition.normalized; // The normalized direction in LOCAL space
-            transform.Translate(localPosition.x * Time.deltaTime * speed , localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
+            transform.Translate(localPosition.x * Time.deltaTime * speed* move_vertical, move_horizontal*localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
         }
         //   Vector3 fwd = transform.TransformDirection(-1,0,0);
         if (player.transform.position.x < transform.position.x)

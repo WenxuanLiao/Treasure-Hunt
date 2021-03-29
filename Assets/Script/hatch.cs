@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class hatch : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class hatch : MonoBehaviour
     public GameObject main_char;
     private SpriteRenderer spriteRenderer;
     bool trigger;
+
     
 
     void Start()
@@ -26,7 +28,10 @@ public class hatch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
     void OnCollisionEnter2D(Collision2D other)
     {

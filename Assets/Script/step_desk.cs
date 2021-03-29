@@ -50,6 +50,7 @@ public class step_desk : MonoBehaviour
         yield return new WaitForSeconds(3.0f);
         walking_controller.walk = 1;
         main_char.transform.position = tunnel.transform.position-new Vector3(0,3,0);
+        main_char.transform.position = new Vector3(main_char.transform.position.x, main_char.transform.position.y, -16.8f);
         collided = false;
     }
 }

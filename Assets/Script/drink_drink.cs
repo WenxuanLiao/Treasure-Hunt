@@ -7,6 +7,7 @@ public class drink_drink : MonoBehaviour
 {
     public Text text;
     public GameObject textbox;
+    public GameObject energy;
     public string info;
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,7 @@ public class drink_drink : MonoBehaviour
         //yield on a new YieldInstruction that waits for 5 seconds.
         yield return new WaitForSeconds(4.0f);
         walking_controller.energy_level++;
+        energy.SetActive(true);
         Destroy(gameObject);
 
         walking_controller.walk = 1;

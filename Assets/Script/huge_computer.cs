@@ -34,9 +34,10 @@ public class huge_computer : MonoBehaviour
         }
         if (transform.position.y>=-9.5)
         {
-            Destroy(GetComponent<Rigidbody2D>());
+            rb.mass = 1000000000000000;
             Destroy(path);
             Destroy(barrier);
+            Destroy(GetComponent<huge_computer>());
         }
     }
     void OnCollisionEnter2D(Collision2D other)

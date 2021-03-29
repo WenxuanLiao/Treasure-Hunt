@@ -21,6 +21,8 @@ public class walking_controller : MonoBehaviour
     public GameObject B;
     public GameObject C;
     public GameObject D;
+    public GameObject E;
+    public GameObject map;
 
     public Transform[] values;
 
@@ -31,16 +33,25 @@ public class walking_controller : MonoBehaviour
         energy_level = 0;
         animator = gameObject.GetComponent<Animator>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-
-        values[1] = A.transform;
-        values[2]= B.transform;
-        values[3] = C.transform;
-        values[4] = D.transform;
+        values = new Transform[4];
+        values[0] = A.transform;
+        values[1]= B.transform;
+        values[2] = C.transform;
+        values[3] = D.transform;
+        values[4] = E.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(collisions);
+        if (Input.GetKey(KeyCode.M))
+        {
+            map.SetActive(true);
+        }
+        else {
+            map.SetActive(false);
+        }
         if (collisions == 0)
         {
             text.text = "";
@@ -51,7 +62,7 @@ public class walking_controller : MonoBehaviour
 
         }
        teleport= GetClosestEnemy(values);
-
+        
         animator.SetFloat("vspeed", 0.0f);
         animator.SetBool("stop", true);
         animator.SetFloat("hspeed", 0.0f);
@@ -90,21 +101,22 @@ public class walking_controller : MonoBehaviour
 
     Transform GetClosestEnemy(Transform[] enemies)
     {
-        Transform bestTarget = null;
-        float closestDistanceSqr = Mathf.Infinity;
-        Vector3 currentPosition = transform.position;
-        foreach (Transform potentialTarget in enemies)
+        Transform tMin = null;
+        float minDist = Mathf.Infinity;
+        Vector3 currentPos = transform.position;
+        foreach (Transform t in enemies)
         {
-            Vector3 directionToTarget = potentialTarget.position - currentPosition;
-            float dSqrToTarget = directionToTarget.sqrMagnitude;
-            if (dSqrToTarget < closestDistanceSqr)
+            float dist = Vector3.Distance(t.position, currentPos);
+            if (dist < minDist)
             {
-                closestDistanceSqr = dSqrToTarget;
-                bestTarget = potentialTarget;
+                tMin = t;
+                minDist = dist;
             }
         }
-
-        return bestTarget;
+       // Debug.Log(tMin);
+        return tMin;
+ 
+       
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

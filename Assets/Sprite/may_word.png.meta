@@ -1,0 +1,1316 @@
+fileFormatVersion: 2
+guid: df2c591bc43dbfc4e964cef11881d1b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6631294258464737927
+    second: may_word_0
+  - first:
+      213: -252249924195294893
+    second: may_word_1
+  - first:
+      213: 3597049980042926988
+    second: may_word_2
+  - first:
+      213: 200704875920035776
+    second: may_word_3
+  - first:
+      213: -3252920057183308606
+    second: may_word_4
+  - first:
+      213: 2596051699361168906
+    second: may_word_5
+  - first:
+      213: 9021082720013538251
+    second: may_word_6
+  - first:
+      213: -8385626729361182404
+    second: may_word_7
+  - first:
+      213: 2265247435291865860
+    second: may_word_8
+  - first:
+      213: 1742184387681064482
+    second: may_word_9
+  - first:
+      213: -8603399954055517400
+    second: may_word_10
+  - first:
+      213: 6388099195133811157
+    second: may_word_11
+  - first:
+      213: 3069626438664101242
+    second: may_word_12
+  - first:
+      213: -2454679751542795758
+    second: may_word_13
+  - first:
+      213: 3854230728166280991
+    second: may_word_14
+  - first:
+      213: -6235777487503000002
+    second: may_word_15
+  - first:
+      213: -7858710931696326201
+    second: may_word_16
+  - first:
+      213: 6250674279810386872
+    second: may_word_17
+  - first:
+      213: -1037475650377704229
+    second: may_word_18
+  - first:
+      213: -510446210040409257
+    second: may_word_19
+  - first:
+      213: 8888877794637733950
+    second: may_word_20
+  - first:
+      213: 7483440004861856977
+    second: may_word_21
+  - first:
+      213: 4736094749369820666
+    second: may_word_22
+  - first:
+      213: 714072510683229423
+    second: may_word_23
+  - first:
+      213: -2065339112104626085
+    second: may_word_24
+  - first:
+      213: -326743579336535034
+    second: may_word_25
+  - first:
+      213: 4316517297306880857
+    second: may_word_26
+  - first:
+      213: -7047992962874490113
+    second: may_word_27
+  - first:
+      213: -5364036771377810592
+    second: may_word_28
+  - first:
+      213: 1051604972455996001
+    second: may_word_29
+  - first:
+      213: 6087358242952750513
+    second: may_word_30
+  - first:
+      213: 8708213413965047079
+    second: may_word_31
+  - first:
+      213: -5486961177359874588
+    second: may_word_32
+  - first:
+      213: -6432562243721006936
+    second: may_word_33
+  - first:
+      213: -3788207255464215703
+    second: may_word_34
+  - first:
+      213: -6822206160840572702
+    second: may_word_35
+  - first:
+      213: 2221633890503872852
+    second: may_word_36
+  - first:
+      213: -8652506548390834931
+    second: may_word_37
+  - first:
+      213: -4075511504612888817
+    second: may_word_38
+  - first:
+      213: 5478913295662797325
+    second: may_word_39
+  - first:
+      213: 520858333588714225
+    second: may_word_40
+  - first:
+      213: -3047062126776939419
+    second: may_word_41
+  - first:
+      213: 325430116538044108
+    second: may_word_42
+  - first:
+      213: -1759637181810451487
+    second: may_word_43
+  - first:
+      213: -4189343801866399427
+    second: may_word_44
+  - first:
+      213: 6112372563691302198
+    second: may_word_45
+  - first:
+      213: -5760887492619242918
+    second: may_word_46
+  - first:
+      213: 2917649586145847623
+    second: may_word_47
+  - first:
+      213: -5960948716644423425
+    second: may_word_48
+  - first:
+      213: -7381647068353904126
+    second: may_word_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: may_word_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 149
+        width: 497
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ac0e47ef6170c50800000000000000
+      internalID: 6631294258464737927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 153
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35168b9c704df7cf0800000000000000
+      internalID: -252249924195294893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bd8cb16e94be130800000000000000
+      internalID: 3597049980042926988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf07e1750c09c200800000000000000
+      internalID: 200704875920035776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 153
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c478d4517e4bd2d0800000000000000
+      internalID: -3252920057183308606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 152
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eb8fe1447070420800000000000000
+      internalID: 2596051699361168906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 152
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc352d720f2513d70800000000000000
+      internalID: 9021082720013538251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 153
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31f7692be440ab80800000000000000
+      internalID: -8385626729361182404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 153
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403bfe46a86cf6f10800000000000000
+      internalID: 2265247435291865860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_9
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22616f8587b7d2810800000000000000
+      internalID: 1742184387681064482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ba8e513559a9880800000000000000
+      internalID: -8603399954055517400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9d8e35f5617a850800000000000000
+      internalID: 6388099195133811157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 153
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d98bd7bf0899a20800000000000000
+      internalID: 3069626438664101242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 152
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21292fb75c93fedd0800000000000000
+      internalID: -2454679751542795758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f0fba3d6afc7530800000000000000
+      internalID: 3854230728166280991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e7107e9611679a0800000000000000
+      internalID: -6235777487503000002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_16
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9e2cb7b0040f290800000000000000
+      internalID: -7858710931696326201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 152
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbc4c6d32bdeb650800000000000000
+      internalID: 6250674279810386872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_18
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc9e1c84652a91f0800000000000000
+      internalID: -1037475650377704229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 153
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753d89d50e78ae8f0800000000000000
+      internalID: -510446210040409257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_20
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e306d394243ab5b70800000000000000
+      internalID: 8888877794637733950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 153
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc0db319058ad760800000000000000
+      internalID: 7483440004861856977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_22
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5e7c6e41df9b140800000000000000
+      internalID: 4736094749369820666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_23
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 160
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec25274a25e8e900800000000000000
+      internalID: 714072510683229423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_24
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 153
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58784a25017653e0800000000000000
+      internalID: -2065339112104626085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 106
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604910d127c277bf0800000000000000
+      internalID: -326743579336535034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_26
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 107
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b4eccac9957eb30800000000000000
+      internalID: 4316517297306880857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 107
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2c96cfdbf703e90800000000000000
+      internalID: -7047992962874490113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_28
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 102
+        width: 200
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06374efe9fc1f85b0800000000000000
+      internalID: -5364036771377810592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 107
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a264b962d089e00800000000000000
+      internalID: 1051604972455996001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_30
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 106
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5aebbd114aa7450800000000000000
+      internalID: 6087358242952750513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_31
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 107
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725adaf36f9c9d870800000000000000
+      internalID: 8708213413965047079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 106
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e50b1f51e56ad3b0800000000000000
+      internalID: -5486961177359874588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_33
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 114
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a07b6378b2fab6a0800000000000000
+      internalID: -6432562243721006936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_34
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 107
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b7f7a62959d6bc0800000000000000
+      internalID: -3788207255464215703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_35
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 46
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0cd9e64a7a251a0800000000000000
+      internalID: -6822206160840572702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_36
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 56
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451d370b044d4de10800000000000000
+      internalID: 2221633890503872852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_37
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 56
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d4c6e132f1ce780800000000000000
+      internalID: -8652506548390834931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_38
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fe78921efd077c0800000000000000
+      internalID: -4075511504612888817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_39
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 63
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0255272d92090c40800000000000000
+      internalID: 5478913295662797325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_40
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 56
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f27bdf05e57a3700800000000000000
+      internalID: 520858333588714225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_41
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 56
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c0ae4c329a6b5d0800000000000000
+      internalID: -3047062126776939419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_42
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 56
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccec67f77f8248400800000000000000
+      internalID: 325430116538044108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_43
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 56
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb5e9c5e438497e0800000000000000
+      internalID: -1759637181810451487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_44
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 56
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31d4cf12067cd5c0800000000000000
+      internalID: -4189343801866399427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_45
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 56
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63de9a1467283d450800000000000000
+      internalID: 6112372563691302198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_46
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 56
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52707319573d00b0800000000000000
+      internalID: -5760887492619242918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_47
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 63
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749e94917d29d7820800000000000000
+      internalID: 2917649586145847623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 56
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8a61489b4764da0800000000000000
+      internalID: -5960948716644423425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may_word_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 56
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2024679d91f1f8990800000000000000
+      internalID: -7381647068353904126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
